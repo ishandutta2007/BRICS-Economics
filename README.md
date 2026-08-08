@@ -1,6 +1,10 @@
-# BRICS-Economics
+# 🌍 BRICS-Economics 📈
 
-## BRICS Economic Metrics (2026 Projections)
+<p align="center">
+  <img src="./assets/banner.svg" alt="BRICS Economics Banner" />
+</p>
+
+## 🏦 BRICS Economic Metrics (2050 Projections) 🔮
 
 
 
@@ -22,7 +26,7 @@
 
 
 
-## G7 Economic Metrics (2026 Projections)
+## 🏛️ G7 Economic Metrics (2050 Projections) 📉
 
 
 | Country | 2026 Nominal GDPPC | Real Growth | Historical Inflation | Projected 2050 Nominal GDPPC | 2026 PPP GDPPC | Projected 2050 PPP GDPPC |
