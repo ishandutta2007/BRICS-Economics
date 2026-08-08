@@ -54,6 +54,10 @@ This repository provides a comprehensive and data-driven comparison of the long-
 >
 > **Even in best possible scenario, USA will still be 7x of India in nominal and 3x of India in PPP in 2050, decreasing from the current ratios of 31x in nominal and 8x in PPP in 2026.**
 
+<p align="center">
+  <img src="./assets/gdp_gap_comparison.png" alt="GDP per Capita Projections (India vs China vs US)" />
+</p>
+
 
 ##  Star History
 <div align="center">
