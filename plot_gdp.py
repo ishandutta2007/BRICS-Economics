@@ -17,7 +17,7 @@ for i, txt in enumerate(india_gdp):
     plt.annotate(f"${txt:,}", (years[i], india_gdp[i]), textcoords="offset points", xytext=(0,-15), ha='center')
 
 for i, txt in enumerate(china_gdp):
-    plt.annotate(f"${txt:,}", (years[i], china_gdp[i]), textcoords="offset points", xytext=(0,-15), ha='center')
+    plt.annotate(f"${txt:,}", (years[i], china_gdp[i]), textcoords="offset points", xytext=(-35,-1), ha='center')
 
 for i, txt in enumerate(us_gdp):
     plt.annotate(f"${txt:,}", (years[i], us_gdp[i]), textcoords="offset points", xytext=(0,10), ha='center')
@@ -26,28 +26,29 @@ for i, txt in enumerate(us_gdp):
 plt.annotate('', xy=(2026-0.5, india_gdp[0]), xytext=(2026-0.5, us_gdp[0]),
              arrowprops=dict(arrowstyle='<->', color='red', lw=1.5, ls=':'))
 gap_2026_multi_ind = us_gdp[0] / india_gdp[0]
-plt.text(2026-2.5, (us_gdp[0] + india_gdp[0])/2.5, f"IN-US Gap: {gap_2026_multi_ind:.1f}x", color='red', va='center')
+plt.text(2026-1.1, (us_gdp[0] + india_gdp[0])/2.5, f"IN-US Gap: {gap_2026_multi_ind:.1f}x", color='red', va='center', ha='right')
 
 plt.annotate('', xy=(2050-0.5, india_gdp[1]), xytext=(2050-0.5, us_gdp[1]),
              arrowprops=dict(arrowstyle='<->', color='red', lw=1.5, ls=':'))
 gap_2050_multi_ind = us_gdp[1] / india_gdp[1]
-plt.text(2050-0.5, (us_gdp[1] + india_gdp[1])/2.5, f"IN-US Gap: {gap_2050_multi_ind:.1f}x", color='red', va='center', ha='right')
+plt.text(2050-1.1, (us_gdp[1] + india_gdp[1])/2.5, f"IN-US Gap: {gap_2050_multi_ind:.1f}x", color='red', va='center', ha='right')
 
 # Double headed arrows for the gap (China - US)
 plt.annotate('', xy=(2026+0.5, china_gdp[0]), xytext=(2026+0.5, us_gdp[0]),
              arrowprops=dict(arrowstyle='<->', color='orange', lw=1.5, ls=':'))
 gap_2026_multi_chn = us_gdp[0] / china_gdp[0]
-plt.text(2026+0.5, (us_gdp[0] + china_gdp[0])/1.3, f"CN-US Gap: {gap_2026_multi_chn:.1f}x", color='orange', va='center')
+plt.text(2026+0.75, (us_gdp[0] + china_gdp[0])/1.8, f"CN-US Gap: {gap_2026_multi_chn:.1f}x", color='orange', va='center', ha='left')
 
 plt.annotate('', xy=(2050+0.5, china_gdp[1]), xytext=(2050+0.5, us_gdp[1]),
              arrowprops=dict(arrowstyle='<->', color='orange', lw=1.5, ls=':'))
 gap_2050_multi_chn = us_gdp[1] / china_gdp[1]
-plt.text(2050+0.5, (us_gdp[1] + china_gdp[1])/1.3, f"CN-US Gap: {gap_2050_multi_chn:.1f}x", color='orange', va='center', ha='right')
+plt.text(2050+0.75, (us_gdp[1] + china_gdp[1])/1.8, f"CN-US Gap: {gap_2050_multi_chn:.1f}x", color='orange', va='center', ha='left')
 
 plt.title("India vs China vs US Nominal GDP Per Capita Projections (2026 vs 2050)")
 plt.xlabel("Year")
 plt.ylabel("Nominal GDP Per Capita (USD)")
 plt.xticks(years)
+plt.margins(x=0.30, y=0.1)
 plt.grid(True, linestyle='--', alpha=0.6)
 plt.legend()
 
