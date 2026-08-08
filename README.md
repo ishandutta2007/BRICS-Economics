@@ -18,4 +18,6 @@
 | **India** | $2,813 | 6.5% | 4.5% | $36,673 |
 | **Ethiopia** | $1,081 | 6.2% | 15.0% | $131,088 |
 
-> \(\text{Nominal\ Growth\ Rate}=(1+\text{Real\ Growth})\times (1+\text{Inflation})-1\)\(\text{2050\ GDP}=\text{2026\ GDP}\times (1+\text{Nominal\ Growth\ Rate})^{24}\)
+> $$ \text{Nominal Growth Rate} = (1 + \text{Real Growth}) \times (1 + \text{Inflation}) - 1 $$
+> 
+> $$ \text{2050 GDP} = \text{2026 GDP} \times (1 + \text{Nominal Growth Rate})^{24} $$
