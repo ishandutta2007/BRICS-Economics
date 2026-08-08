@@ -20,6 +20,8 @@
 | **Ethiopia** | $1,081 | 6.2% | 15.0% | $131,087 | $4,100 | $17,368 |
 
 > $$ \text{Nominal Growth Rate} = (1 + \text{Real Growth}) \times (1 + \text{Inflation}) - 1 $$
+>
 > $$ \text{2050 GDP} = \text{2026 GDP} \times (1 + \text{Nominal Growth Rate})^{24} $$
-> Assuming constant popultion
+>
+>  Assuming constant popultion
 
