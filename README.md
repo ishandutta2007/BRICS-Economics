@@ -52,7 +52,7 @@ This repository provides a comprehensive and data-driven comparison of the long-
 >
 > For simplifiation assuming constant population, so that I can use GDP growth data as GDP per capita growth data
 >
-> **Even in best poaaible scenario, USA will still be 7x of India in nominal and 3x of India in PPP in 2050, decreasing from the current ratios of 31x in nominal and 8x in PPP in 2026.**
+> **Even in best possible scenario, USA will still be 7x of India in nominal and 3x of India in PPP in 2050, decreasing from the current ratios of 31x in nominal and 8x in PPP in 2026.**
 
 
 ##  Star History
