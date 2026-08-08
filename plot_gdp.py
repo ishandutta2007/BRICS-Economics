@@ -19,12 +19,12 @@ for i, txt in enumerate(us_gdp):
 
 # Double headed arrows for the gap
 plt.annotate('', xy=(2026, india_gdp[0]), xytext=(2026, us_gdp[0]),
-             arrowprops=dict(arrowstyle='<->', color='red', lw=1.5))
+             arrowprops=dict(arrowstyle='<->', color='red', lw=1.5, ls=':'))
 gap_2026_multi = us_gdp[0] / india_gdp[0]
 plt.text(2026.5, (us_gdp[0] + india_gdp[0])/2, f"Gap: {gap_2026_multi:.0f}x", color='red', va='center')
 
 plt.annotate('', xy=(2050, india_gdp[1]), xytext=(2050, us_gdp[1]),
-             arrowprops=dict(arrowstyle='<->', color='red', lw=1.5))
+             arrowprops=dict(arrowstyle='<->', color='red', lw=1.5, ls=':'))
 gap_2050_multi = us_gdp[1] / india_gdp[1]
 plt.text(2049.5, (us_gdp[1] + india_gdp[1])/2, f"Gap: {gap_2050_multi:.0f}x", color='red', va='center', ha='right')
 
