@@ -44,6 +44,7 @@ plt.annotate('', xy=(2050+0.5, china_gdp[1]), xytext=(2050+0.5, us_gdp[1]),
 gap_2050_multi_chn = us_gdp[1] / china_gdp[1]
 plt.text(2050+0.75, (us_gdp[1] + china_gdp[1])/1.8, f"CN-US Gap: {gap_2050_multi_chn:.1f}x", color='orange', va='center', ha='left')
 
+plt.yscale('log')
 plt.title("India vs China vs US Nominal GDP Per Capita Projections (2026 vs 2050)")
 plt.xlabel("Year")
 plt.ylabel("Nominal GDP Per Capita (USD)")
